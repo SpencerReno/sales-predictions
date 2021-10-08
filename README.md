@@ -55,6 +55,8 @@ test_r2 =0.56\
 train_rmse =1118.83\
 test_rmse =1131.04
 
+## Final Recommendations 
 
+Finally, with using  all the info gathered based on the data and models I would personally recomend useing either the decision tree or random Forest models. With the Decision Tree model it has a lower rmse score than all other models. This means it can predict the prices closer than the other models within range of 1000 dollars. However, it base r2 scores are well lower than the bagged regression and random forest model. Being that it has lower r2 scores this means it didnt learn as well as the other models did. Now, the reason why I give it the choice is because of the differeance in r2 scores and rmse. The random forest model has a better r2 training score than the Decision tree, but a slightly worse rmse. The advantage with the random forest model is that it has properly learned from the data. The disadvantage being that the predictions are within range of 1105. Personally i would choose the Random forest model since it has learned from the data better and in the case of the predictions only being outlet sales an extra 105 isnt an enormus differance.
 
 
